@@ -1,0 +1,17 @@
+name: EodCommunity
+version: ${project.version}
+main: com.superdevelopment.eodcommunity.Main
+api-version: 1.16
+prefix: EodCommunity
+authors: [ Superbility ]
+depend:
+  - ProtocolLib
+commands:
+  clan:
+    description: Clan command!
+    usage: /<command>
+    aliases:
+      - clans
+  c:
+    description: Clan chat!
+    usage: /<command>
